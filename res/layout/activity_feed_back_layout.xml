@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0" >
+
+    <EditText
+        android:id="@+id/et_suggestion"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="1dp"
+    	android:layout_marginRight="1dp"
+        android:hint="@string/suggestion_hint"
+        android:textColor="@color/text_color"
+        android:textSize="15sp" />
+    
+    <EditText
+        android:id="@+id/et_contact"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="1dp"
+    	android:layout_marginRight="1dp"
+        android:layout_below="@+id/et_suggestion"
+        android:hint="@string/contact_hint"
+        android:singleLine="true"
+        android:textColor="@color/text_color"
+        android:textSize="15sp" />
+    
+    <Button
+        android:id="@+id/btn_submit_suggestion"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="1dp"
+    	android:layout_marginRight="1dp"
+        android:layout_below="@+id/et_contact"
+        android:layout_marginTop="25dp"
+        android:textSize="16sp"
+        android:background="@color/btn_main_bg"
+        android:text="@string/submit"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

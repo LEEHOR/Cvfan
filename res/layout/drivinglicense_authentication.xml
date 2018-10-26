@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9e9e9"
+    android:orientation="vertical"
+    android:id="@+id/ll_authentication" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e9e9e9" >
+
+        <ImageView
+            android:id="@+id/iv_auth_line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/auth_line2" />
+
+        <TextView
+            android:id="@+id/tv_license_auth_notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_auth_line2"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="15dp"
+            android:text="驾照认证会员即可获得2000积分，同时成为卡车之友银牌VIP会员"
+            android:textColor="#5c5c5c"
+            android:textSize="16sp"
+            android:visibility="gone"
+             />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" >
+
+        <ImageView
+            android:id="@+id/iv_auth_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/xq_img12" />
+
+        <EditText
+            android:id="@+id/et_license_auth_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_auth_line"
+            android:layout_toLeftOf="@+id/iv_license_auth_name"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="姓名"
+            android:textColor="#8e8e8e"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_license_auth_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="18dp"
+             />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" >
+
+        <ImageView
+            android:id="@+id/iv_num_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/xq_img12" />
+
+        <EditText
+            android:id="@+id/et_license_auth_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_num_line"
+            android:layout_toLeftOf="@+id/iv_license_auth_num"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="驾照号码"
+            android:textColor="#8e8e8e"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_license_auth_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="18dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_chose_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+         >
+		<TextView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/license_photo"
+		    android:layout_alignParentLeft="true"
+		    android:layout_centerInParent="true"
+		    android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#8e8e8e"
+            android:textSize="16sp"
+		    />
+        
+        <ImageView
+            android:id="@+id/iv_photo_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/xq_img12" />
+
+        <ImageView
+            android:id="@+id/tv_license_auth_photo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/iv_license_auth_photo"
+            />
+
+        <ImageView
+            android:id="@+id/iv_license_auth_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="18dp"
+            android:src="@drawable/renzheng_img2" />
+    </RelativeLayout>
+    
+     <Button
+        android:id="@+id/btn_certification"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/btn_main_bg"
+        android:text="@string/certification"
+        android:textColor="@color/white" 
+        android:textSize="16sp"
+        android:layout_marginLeft="1dp"
+    	android:layout_marginRight="1dp"
+        android:gravity="center"/>
+
+</LinearLayout>

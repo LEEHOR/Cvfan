@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_truck_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal" 
+    android:gravity="center_vertical"
+    android:baselineAligned="true"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/tv_truck_plate_number"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="鄂A888888"
+        android:textColor="#055ac9"
+        android:textSize="16sp"
+         />
+	<RelativeLayout 
+	    android:layout_width="0dp"
+	    android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+	    >
+	<TextView
+        android:id="@+id/tv_gurantee_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gurantee_string"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+         />
+
+    <TextView
+        android:id="@+id/tv_autherise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_gurantee_string"
+        android:text="@string/uncertificated"
+        android:textColor="@color/red"
+        android:textSize="16sp" />
+
+     <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3dp"
+        android:src="@drawable/xq_img7"
+         />
+    
+	</RelativeLayout>
+</LinearLayout>

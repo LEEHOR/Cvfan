@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#900</color>
+    <color name="green">#090</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="lightgray">#D3D3D3</color>
+    
+    <color name="menu_backgruond">#2c2c2c</color>
+    <color name="text_color_white">#dcdcdc</color>
+    
+    <color name="title_color">#777777</color>
+    <color name="content_color">#f3f3f3</color>
+    
+    <color name="content_color_dark">#e9e9e9</color>
+    <color name="black_background">#363636</color>
+    
+    <color name="blue_btn">#248be3</color>
+    <color name="text_color">#8a8a8a</color>
+    
+    <color name="btn_red_bg">#fb5e4f</color>
+    <color name="btn_orange_bg">#ff7200</color>
+    <color name="btn_main_bg">#d42a29</color>
+    
+    
+    <color name="pb_bg">#acacac</color>
+    <color name="pb_fg">#73da3b</color>
+    <color name="chosed">#ffffff</color>
+    <color name="normal_bg">#f3f3f3</color>
+    
+    <color name="gray">#7d7d7d</color>
+ 	<color name="blue">#007aff</color>
+ 	
+ 	<color name="translucence">#b0000000</color>
+</resources>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">卡车之友</string>
+    <string name="personal_center">个人中心</string>
+    <string name="vehicle_manage">车辆管理</string>
+    <string name="maintain_paper_manage">维修单管理</string>
+    <string name="search_maintain_station">查找服务站</string>
+    <string name="setting">设置</string>
+    <string name="login_hint">账号</string>
+    <string name="password_hint">密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="reg_first">注册(1/2)</string>
+    <string name="reg_second">注册(2/2)</string>
+    <string name="phone_num">手机号</string>
+    <string name="phone_hint">请输入手机号</string>
+    <string name="verification_code">验证码</string>
+    <string name="verification_code_msg">短信验证码</string>
+    <string name="verification_hint">请输入验证码</string>
+    <string name="gain_verification_code">获取验证码</string>
+    <string name="next_step">下一步</string>
+    <string name="nick_name">昵称</string>
+    <string name="repeat_password">确认密码</string>
+    <string name="reg_hint">注册即表示阅读并同意</string>
+    <string name="reg_cluse">注册条款</string>
+    <string name="personal_page">个人主页</string>
+    <string name="personal_info">个人资料</string>
+    <string name="personal_gallery">个人相册</string>
+    <string name="my_credit">我的积分</string>
+    <string name="credit_rule">积分规则</string>
+    <string name="vip_grade">会员等级</string>
+    <string name="vip_authentication">身份认证</string>
+    <string name="truck_brand">车辆品牌</string>
+    <string name="truck_model">车辆型号</string>
+    <string name="engine_number">发动机号</string>
+    <string name="drive_mode">驱动形式</string>
+    <string name="engine">发动机</string>
+    <string name="max_drive">最大马力</string>
+    <string name="standard_emission">排放标准</string>
+    <string name="transmission">变速箱</string>
+    <string name="gears">前进档位</string>
+    <string name="truck_info">车辆资料</string>
+    <string name="gallery">相册</string>
+    <string name="register_protocal">注册条款</string>
+    <string name="register_clause">1、服务条款确认\n
+&#160;&#160;&#160;&#160;卡车之友APP及相关网站www.cvfans.com.cn的所有权和运营权归上海卡车之友网络科技有限公司，本APP及相关网站所提供的服务将严格按照服务条款和操作规则执行。用户必须确认所有服务条款并完成注册程序，才能成为卡车之友的正式用户。\n\n
+
+2、版权声明\n
+&#160;&#160;&#160;&#160;卡车之友APP及网站(www.cvfans.com.cn)上刊载的所有内容，包括但不限于文字报导、图片、声音、录像、图表、标志、标识、广告、商标、商号、域名、软件、程序、版面设计、专栏目录与名称、内容分类标准以及为注册用户提供的任何或所有信息，均受《中华人民共和国著作权法》、《中华人民共和国商标法》、《中华人民共和国专利法》及适用之国际公约中有关著作权、商标权、专利权及其它财产所有权法律的保护，为上海卡车之友网络科技有限公司专属所有或持有。 使用者将卡车之友提供的内容与服务用于非商业用途、非盈利、非广告目的而纯属个人使用时，应遵守著作权法以及其他相关法律的规定，不得侵犯卡车之友的合法权益。 使用者将卡车之友提供的内容与服务用于商业、盈利、广告性目的时，需征得上海卡车之友网络科技有限公司的书面特别授权，否则将追究有关人员的侵权责任。卡车之友所使用的所有软件归属上海卡车之友网络科技有限公司所有， 受《中华人民共和国著作权法》及国际版权公约法律保护。除经本公司特别说明用作销售或免费下载、使用等目的外，任何其他用途包括但不限于复制、修改、经销、转储、发表、展示、演示以及反向工程均在严格禁止之列，任何单位和个人非法使用均构成对本公司的侵权。\n\n
+
+3、服务约定\n
+&#160;&#160;&#160;&#160;卡车之友运通过国际互联网络为用户提供网络服务。由于服务栏目和内容的不同，要求用户必须：\n (1)自行配备上网的所需设备， 包括手机、个人电脑、调制解调器或其他必备上网装置。\n (2)自行负担个人上网所支付的与此服务有关的电话费用、 网络费用。 \n(3)提供详尽、准确的个人资料。\n (4)不断更新注册资料，符合及时、详尽、准确的要求。 如果用户提供的资料包含有不正确的信息，卡车之友保留结束用户使用网络服务资格的权利。\n\n
+
+4、服务修订\n
+&#160;&#160;&#160;&#160;卡车之友APP根据自身的服务内容，以及与用户达成的协议提供服务。用户在享用本APP及卡车之友网站提供的专项服务的同时，同意接受网站提供的各类信息服务。卡车之友有权在必要时修改服务条款，服务条款一旦发生变动，将会在重要页面上提示修改内容。如果不同意所改动的内容，用户可以在与本公司取得联系后取消所获得的网络服务。如果用户继续享用网络服务，则视为接受服务条款的变动。卡车之友保留随时修改或中断服务而不需提前告知用户的权利。卡车之友行使修改或中断服务的权利，不需对用户或第三方负责。\n\n
+
+5、注册用户隐私保护\n
+&#160;&#160;&#160;&#160;用户一旦注册成功，成为卡车之友的合法用户，将得到一个密码和用户名。 由用户对用户名和密码安全负全部责任。此外，每个用户都要对以其用户名进行的所有活动和事件负全责。您可随时根据规则改变您的密码。用户若发现任何非法使用用户帐号或存在安全漏洞的情况，请立即通告卡车之友。 卡车之友尊重用户个人隐私，未经合法用户授权，本公司不会在公开、编辑或透露其注册资料，除非有法律许可要求或未经合法用户授权在诚信的基础上认为透露这些信息是必要的： \n(1)用户授权本公司或授权某人通过电子邮件服务透露这些信息。\n (2)相应的法律及程序要求本网提供用户的个人资料。 \n(3)遵守有关法律规定，遵从本公司合法服务程序。 \n(4)保持维护本公司的商标所有权。 \n(5)在紧急情况下竭力维护用户个人和社会大众的隐私安全。 \n(6)符合其他相关的要求。\n\n
+
+6、风险承担\n
+&#160;&#160;&#160;&#160;用户个人对网络服务的使用自行承担风险。卡车之友所提供的所有资料权限于对用户参考，不对用户的商业运作做任何具体性指导，用户应自行承担使用或提供本APP信息的商业活动及其风险。卡车之友不保证服务一定能满足用户的要求，也不保证服务不会受中断。本公司将尽力保证服务的及时性、准确性、安全性，但对及时性、准确性、安全性等都不作任何具体承诺。对用户在运用卡车之友得到的任何商品购物服务或交易进程，均不作任何担保，除非有专门的担保功能机制。\n\n
+
+7、免责事由\n
+（1）卡车之友对用户在接受服务过程中所受的任何直接、间接的损害不负责任，这些损害可能来自：不正当使用网络服务，在网上购买商品或进行同类型服务，在网上进行交易，非法使用网络服务或用户传送的信息有所变动等。 \n（2）卡车之友不对用户所发布信息的删除或储存失败负责。\n（3）对用户自行提供的信息，由用户依法自行承担全部责任。卡车之友对此等信息的准确性、完整性、合法性或真实性均不承担任何责任。 \n（4）用户在本APP及相关网站所发表的任何意见均属于个人意见，并不代表上海卡车之友网络科技有限公司持同样的观点。
+
+8、用户承诺\n
+用户自行承担发布内容的责任。用户必须遵循：\n (1)用户必须提供真实的自我信息，对其在本APP及相关网站上发布的信息负全部责任。\n (2)从中国境内向外传输资料信息时必须符合中国有关法规。\n (3)使用网络服务不作非法用途。\n(4)不干扰或攻击网络服务。\n (5)遵守所有使用网络服务的网络协议、规定、程序和惯例。 用户须承诺不传输任何非法的、骚扰性的、中伤他人的、辱骂性的、恐吓性的、伤害性的、庸俗的，淫秽等信息资料。另外，用户也不能传输任何教唆他人构成犯罪行为的资料；不能传输涉及国家安全的资料；不能传输任何不符合当地法规、国家法律和国际法律的资料。禁止未经许可而非法进入其它电脑系统。用户需对自己在网上的行为承担法律责任。用户若在卡车之友上散布和传播反动、色情或其他违反国家法律的信息，本公司的系统记录有可能作为用户违反法律的证据。卡车之友有权对违法行为作出独立判断并立即取消用户服务。 \n\n
+用户特别承诺：\n用户一旦在本APP注册，即以明示或默示的方式同意并允许卡车之友将用户的商号、商标等用于卡车之友开发的衍生产品中。但卡车之友在使用过程中应保证其公正的立场，正确反应客观事实，不得恶意诋毁或损害用户的名誉。\n\n
+
+9、服务终止或中止\n
+&#160;&#160;&#160;&#160;卡车之友和用户可根据合同约定或实际情况终止、中止一项或多项网络服务。卡车之友不需对任何个人或第三方负责而随时中止服务。用户对后来的条款修改有异议，或对本APP及相关网站的服务不满意，可以行使如下权利： \n(1)停止使用本APP及相关网站的网络服务。 \n(2)通告本公司停止对该用户的服务。 结束用户服务后，用户使用网络服务的权利立即终止或中止。从终止或中止之时，用户没有权利，本公司也没有义务传送任何未处理的信息或未完成的服务给用户或第三方。
+
+10、通告形式\n
+&#160;&#160;&#160;&#160;卡车之友服务条款的修改、服务变更、或其它重要事件发生变动而需要通告时，可根据实际情况选择通过重要页面公告、电子邮件、短信等形式进行。
+
+11、法律适用\n
+&#160;&#160;&#160;&#160;本网网络服务条款与中华人民共和国的法律解释相一致，用户和卡车之友一致同意服从中华人民共和国法律的管辖。
+		
+									上海卡车之友网络科技有限公司
+</string>
+    <string name="vehicle_manage_hint">如果您驾驶的车辆为企业或车队车辆，车辆需由企业或车队注册后才可享受更多卡车之友服务。\n \n
+                                       如果您驾驶的车辆为您个人所有，请将该车信息注册才可享受更多卡车之友服务。</string>
+    <string name="register_truck">注册车辆</string>
+    <string name="area">所在地</string>
+    <string name="age">年龄</string>
+    <string name="drive_age">驾龄</string>
+    <string name="driving_license_certificate">驾照认证</string>
+    <string name="certificated">已认证</string>
+    <string name="uncertificated">未认证</string>
+    <string name="bind_phone">手机绑定</string>
+    <string name="bound">已绑定</string>
+    <string name="unbound">未绑定</string>
+    <string name="license_plate_number">车牌号码</string>
+    <string name="owner">所有人</string>
+    <string name="address">地址</string>
+    <string name="carframe_number">车架号</string>
+    <string name="driving_license_pic">行驶证照片</string>
+    <string name="truck_register">车辆注册</string>
+    <string name="must_fillout">必填</string>
+    <string name="edit">编辑</string>
+    <string name="truck_grade">车辆等级</string>
+    <string name="no_maintain_station">尚无维修担保服务站</string>
+    <string name="request_station_guarante">申请服务站担保</string>
+    <string name="truck_guarante_hint">经服务站担保的车辆在联盟任何一家服务站维修保养可享受后付费服务</string>
+    <string name="truck_guarante">车辆担保</string>
+    <string name="guarante_station">服务站</string>
+    <string name="station_detail">服务站详情</string>
+    <string name="maintail_recorder">维修记录</string>
+    <string name="maintail_paper">维修单</string>
+    <string name="construct_number">施工编号:</string>
+    <string name="maintain_plate_number">车牌号码:</string>
+    <string name="in_date">进厂日期:</string>
+    <string name="out_date">出厂日期:</string>
+    <string name="client">托修方:</string>
+    <string name="contract">联系人:</string>
+    <string name="contract_phone_number">联系电话:</string>
+    <string name="service">维修方:</string>
+    <string name="assurance_station">担保站:</string>
+    <string name="price">结算价格:</string>
+    <string name="maintain_vip_grade">会员等级:</string>
+    <string name="pay_price">支付价格:</string>
+    <string name="describe">维修内容描述:</string>
+    <string name="appraise_station">点评服务站</string>
+    <string name="publish">发布</string>
+    <string name="add_appraise">添加点评</string>
+    <string name="add_appraise_hint">请对该服务站服务内容进行打分</string>
+    <string name="service_quality">服务质量</string>
+    <string name="service_speed">服务速度</string>
+    <string name="parts_quality">配件质量</string>
+    <string name="service_price">价格水平</string>
+    <string name="pretty_good">非常好</string>
+    <string name="very_good">很好</string>
+    <string name="good">好</string>
+    <string name="normal">一般</string>
+    <string name="bad">差</string>
+    <string name="suggest_hint">给服务站提意见</string>
+    <string name="input_station_name">输入服务站名称</string>
+    <string name="search_city">按城市查找</string>
+    <string name="search_brand">按品牌查找</string>
+    <string name="search">搜索</string>
+    <string name="search_station">搜索服务站</string>
+    <string name="push_function">推送功能</string>
+    <string name="modify_pwd">修改密码</string>
+    <string name="clear_cash">清空缓存</string>
+    <string name="appraise_us">评价我们</string>
+    <string name="register_protocol">注册协议</string>
+    <string name="about_us">关于我们</string>
+    <string name="version_update">版本更新</string>
+    <string name="exit">退出账号</string>
+    <string name="push_setting">推送设置</string>
+    <string name="mark_switch">标记开关</string>
+    <string name="notify_switch">提示框开关</string>
+    <string name="voice_switch">声音开关</string>
+    <string name="old_password">旧密码</string>
+    <string name="new_password">新密码</string>
+    <string name="new_password_repeat">确认新密码</string>
+    <string name="ok">确定</string>
+    <string name="head_icon">头像</string>
+    <string name="birthday">生日</string>
+    <string name="drive_years">驾龄</string>
+    <string name="phone_number">手机号</string>
+    <string name="cancel">取消</string>
+    <string name="friend_appraise">卡友评价</string>
+    <string name="hint_title">提示信息</string>
+    <string name="loginning">正在登录</string>
+    <string name="query">正在查询</string>
+    <string name="modify_password">正在修改密码</string>
+    <string name="phone_certification">手机认证</string>
+    <string name="identity_certification">身份认证</string>
+    <string name="identity_certification_info">身份认证详情</string>
+    <string name="modify_nickname">修改昵称</string>
+    <string name="comitting">正在提交</string>
+    <string name="modify_bind">修改绑定手机</string>
+    <string name="nolimit">不限</string>
+    <string name="certification">认证</string>
+    <string name="exit_hint">再按一次退出程序</string>
+    <string name="brand_first">请先选择车辆品牌</string>
+    <string name="brand_chose">选择汽车品牌</string>
+    <string name="type_chose">选择汽车型号</string>
+    <string name="register_success">注册成功</string>
+    <string name="brand_unchoose">未选择汽车品牌</string>
+    <string name="type_unchoose">未选择汽车型号</string>
+    <string name="modify_truck_info_success">修改车辆信息成功</string>
+    <string name="chose_area">区域选择</string>
+    <string name="chose_city">选择城市</string>
+    <string name="chose_station">选择服务站</string>
+    <string name="commit_assurance_succeed">提交认证成功</string>
+    <string name="line_gps">地图站点</string>
+    <string name="open_gps">卡车之友需要使用您的位置来获取更精确的信息</string>
+    
+    <string name="camera">拍照</string>
+    <string name="local_pic">从相册中选择</string>
+    <string name="applystation_unchoose">申请担保服务站不能为空!</string>
+    <string name="plateNo_not_msg">车牌号不能为空</string>
+    
+    <string name="suggestion_hint">请输入您的建议</string>
+    <string name="contact_hint">联系方式(邮箱/手机号)</string>
+    <string name="submit">提交</string>
+    <string name="feed_back_title">意见反馈</string>
+    <string name="commit_succeed">提交成功</string>
+	<string name="not_auto_msg">尚未注册车辆</string>
+    <string name="having_auto_msg">注册车辆</string>
+    <string name="login_account">账号</string>
+    <string name="login_password">密码</string>
+    <string name="return_msg">返回</string>
+    <string name="please_chose">请选择</string>
+    <string name="finish">确定</string>
+    <string name="detail_address">详细地址</string>
+    <string name="edit_personinfo">编辑</string>
+    <string name="comment_count">卡友评价（%1$d条）</string>
+    <string name="gurantee_string">担保状态:</string>
+    <string name="license_date">驾照日期</string>
+    <string name="modify_personal_info_succeed">修改个人信息成功</string>
+    <string name="binded_phone_modify">绑定手机号修改</string>
+    <string name="netconnect_exception">网络连接异常，请检查网络设置</string>
+    <string name="get_version_code_failed">获取当前版本号失败</string>
+    <string name="latest_version">已是最新版本</string>
+    <string name="license_photo">驾驶证照片</string>
+    <string name="cvfans_website">www.cvfans.com.cn</string>
+    <string name="cvfans_company">上海卡车之友网络科技有限公司&#160;&#160;版权所有</string>
+    <string name="company_license">copyright&#160;@2015&#160;备案号:&#160;鄂ICP备08001818号-24</string>
+    <string name="about_us_titile">关于我们</string>
+    <string name="location_now">目前位置:</string>
+    <string name="exit_msg">确定退出当前账号？</string>
+    <string name="prompt_msg">提示</string>
+    <string name="password_hint_msg">密码请输入6&#8211;30位字母或数字</string>
+    <string name="confirm_password_hint">确认密码与密码一致</string>
+    <string name="account_re_hint">登录账号</string>
+    <string name="progress_msg">正在努力加载中...</string>
+    <string name="more">更多</string>
+    <string name="forget_password">忘记密码？</string>
+    <string name="forget_password_title">忘记密码</string>
+    <string name="reset_password">重置密码</string>
+    <string name="driver_name">姓名</string>
+    <string name="driver_license_no">驾照号码</string>
+    <string name="driver_license_photo">驾照证照片</string>
+    
+    <!-- 自定义组件 -->
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">松开可以刷新</string>
+    <string name="lastUpdateTime">最近更新：%s</string>
+    <string name="load_full">已加载全部</string>
+    <string name="no_data">暂无数据</string>
+    <string name="loading">加载中</string>
+     <string name="comment_station_hint">请客观的给出您对该服务站的评价</string>
+     <string name="mobile_binded_modify">修改绑定手机</string>
+
+    <!-- 消除警告，可忽略 -->
+    <string name="d">图片描述</string>
+    <string name="no_login">未登录</string>
+	
+</resources>

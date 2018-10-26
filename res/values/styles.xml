@@ -1,0 +1,49 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+
+    <!-- Application theme. -->
+    
+    <style name="ActivityTheme" parent="android:Theme.NoTitleBar">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:screenOrientation">portrait</item>
+    </style>
+
+    <style name="commentRatingBar_star" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/commentratingbar_star</item>  
+        <item name="android:minHeight">30dip</item>  
+        <item name="android:maxHeight">30dip</item>        
+    </style>
+    
+    <style name="commentRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/commentratingbar</item>        
+        <item name="android:minHeight">25dip</item>  
+        <item name="android:maxHeight">25dip</item>
+    </style>
+    
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">  
+	    <item name="android:windowFrame">@null</item>  
+	        <item name="android:windowIsFloating">true</item>  
+	        <item name="android:windowContentOverlay">@null</item>  
+	        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>  
+	        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>  
+	</style>  
+      
+    <style name="CustomProgressDialog" parent="@style/CustomDialog">  
+        <item name="android:windowBackground">@android:color/transparent</item>  
+        <item name="android:windowNoTitle">true</item>  
+    </style>  
+    
+    <style name="customProgressBar" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/custom_progress_bar</item>
+        <item name="android:layout_width">21dip</item>
+        <item name="android:layout_height">21dip</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    
+</resources>

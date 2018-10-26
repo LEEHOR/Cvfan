@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_color_dark" >
+
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_bg"
+        android:drawableLeft="@drawable/search_icon"
+        android:gravity="center_vertical"
+        android:hint="@string/input_station_name"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/text_color"
+        android:textSize="16sp" />
+    <RelativeLayout
+        android:id="@+id/ll_search_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/et_search"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/tv_searcharea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/search_city"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_province_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_searcharea"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+		
+         <ImageView 
+                android:id="@+id/iv_area_direction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/xq_img7"
+                android:layout_marginRight="10dp"/>
+        
+        <ImageView
+            android:id="@+id/iv_delete_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_searcharea"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/delete_cancel"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+             />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_search_brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ll_search_city"
+        android:layout_marginTop="3dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/tv_searchbrand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/search_brand"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_brand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_searchbrand"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+		
+           <ImageView 
+                android:id="@+id/iv_brand_direction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/xq_img7"
+                android:layout_marginRight="10dp"/>
+        	
+         <ImageView
+             android:id="@+id/iv_delete_two"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:layout_alignBottom="@+id/tv_brand"
+             android:src="@drawable/delete_cancel"
+             android:layout_marginRight="10dp"
+             android:visibility="gone"
+              />
+        
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ll_search_brand"
+        android:layout_marginTop="10dp"
+        android:background="@color/btn_main_bg"
+        android:text="@string/search"
+        android:textColor="@color/white"
+        android:layout_marginLeft="1dp"
+   		android:layout_marginRight="1dp"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/iv_clean_conten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/et_search"
+        android:layout_centerVertical="@+id/et_search"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/delete_cancel" 
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="600dp"
+    android:layout_height="800dp"
+    android:background="@color/content_color"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp" >
+
+    <RelativeLayout 
+        android:id="@+id/rl_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/btn_red_bg">
+        <TextView 
+            android:id="@+id/tv_province_pop_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/please_chose"
+            android:layout_centerInParent="true"
+            android:textColor="@color/translucence"/>
+        <ImageView 
+            android:id="@+id/iv_province_pop_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delete_cancel"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"/>        
+    </RelativeLayout>
+    <ListView 
+        android:id="@+id/lv_province"
+        android:layout_below="@+id/rl_title_bar"
+        android:layout_above="@+id/btn_next_step"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <Button 
+        android:id="@+id/btn_next_step"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/btn_red_bg"
+        android:text="@string/next_step"/>
+</RelativeLayout>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0">
+
+    <LinearLayout
+        android:id="@+id/ll_wall_paper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/head_img2"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/iv_personal_fag_head"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/default_driver_logo" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_personal_page"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ll_wall_paper"
+        android:layout_marginTop="3dp"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/personal_icon"
+            android:gravity="center"
+            android:drawablePadding="15dp"
+            android:text="@string/personal_page"
+            android:textColor="@color/text_color"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_personal_page_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/xq_img7"
+            android:layout_marginRight="10dp"  />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_personal_info"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rl_personal_page"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/personal_info"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_personal_info_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/xq_img7"
+            android:layout_marginRight="10dp"  />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_personal_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rl_personal_info"
+        android:layout_marginTop="3dp"
+        android:background="@color/white"
+        android:orientation="horizontal" 
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/personal_gallery"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_personal_gallery_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/xq_img7"
+            android:layout_marginRight="10dp"  />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_my_credit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rl_personal_page"
+        android:layout_marginTop="3dp"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/integral_icon"
+            android:gravity="center"
+            android:drawablePadding="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/my_credit"
+            android:textSize="16sp"
+            android:textColor="@color/text_color" />
+        
+        <TextView
+            android:id="@+id/tv_personal_fag_credit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="203"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            android:layout_toLeftOf="@+id/iv_my_credit_more" 
+            android:layout_marginRight="8dp"/>
+
+        <ImageView
+            android:id="@+id/iv_my_credit_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/xq_img7" 
+            android:layout_marginRight="10dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_vip_grade"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rl_my_credit"
+        android:layout_marginTop="3dp"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+             android:drawableLeft="@drawable/members_leave_icon"
+            android:gravity="center"
+            android:drawablePadding="15dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/vip_grade"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+        
+        <TextView
+            android:id="@+id/tv_personal_fag_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="普通会员"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            android:layout_toLeftOf="@+id/iv_vip_grade_more" 
+            android:layout_marginRight="8dp"/>
+        <ImageView
+            android:id="@+id/iv_vip_grade_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/xq_img7"
+            android:layout_marginRight="10dp" />
+    </RelativeLayout>
+    
+    <Button 
+        android:id="@+id/btn_identification"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/btn_main_bg"
+        android:layout_alignParentBottom="true"
+        android:text="身份认证(未认证)"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="center"/>
+
+</RelativeLayout>

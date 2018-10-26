@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    
+	<LinearLayout 
+	  android:id="@+id/ll_mobile_binded"
+	  android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:gravity="center"
+	    >
+      <ImageView
+          	android:id="@+id/iv_binded_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/mobile_binded" />
+      
+       <TextView
+           	android:id="@+id/tv_verified_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textSize="32sp"
+            android:textColor="#d42731"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/password_image"
+            android:background="@drawable/gray_back" />
+       </LinearLayout>
+       
+      <Button 
+        android:id="@+id/btn_modify_binded"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="1dp"
+    	android:layout_marginRight="1dp"
+        android:background="@color/btn_main_bg"
+        android:text="@string/mobile_binded_modify"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_below="@+id/ll_mobile_binded"
+        android:gravity="center"/>
+
+</RelativeLayout>

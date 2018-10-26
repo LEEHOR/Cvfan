@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_color"
+    android:orientation="vertical" >
+
+    <!-- 表格布局 -->
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_bg"
+            android:orientation="horizontal"
+            android:padding="10dip" >
+           
+            <ImageView
+                android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/login_account_image"
+	            />
+
+            <EditText
+                android:id="@+id/et_nick_name"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:hint="@string/account_re_hint"
+                android:singleLine="true"
+                 />
+        </LinearLayout>
+	
+        <LinearLayout
+            android:id="@+id/LinearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/input_bg"
+            android:padding="10dip" >
+
+            <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/password_image"
+	            android:layout_gravity="center_vertical"
+	            android:layout_marginRight="10dp"
+	         />
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:hint="@string/password_hint_msg"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/LinearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:background="@drawable/input_bg"
+            android:padding="10dip" >
+
+            <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/password_image"
+	            android:layout_gravity="center_vertical"
+	            android:layout_marginRight="10dp"
+	            />
+
+            <EditText
+                android:id="@+id/et_repeat_password"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:maxLength="30"
+                android:hint="@string/confirm_password_hint"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:background="@drawable/input_bg"
+            android:padding="10dip" >
+			
+             <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/phone_icon"
+	            android:layout_gravity="center_vertical"
+	            android:layout_marginRight="10dp"
+	         />
+
+            <EditText
+                android:id="@+id/et_phone_number"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:hint="@string/phone_hint"
+                android:inputType="phone"
+                android:singleLine="true"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" >
+
+            <EditText
+                android:id="@+id/et_verification_code"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"
+                android:background="@drawable/input_bg"
+                android:hint="@string/verification_code_msg"
+                android:inputType="phone"
+                android:paddingLeft="5dp"
+                />
+
+            <Button
+                android:id="@+id/btn_gain_verification_code"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/code_back_red"
+                android:text="@string/gain_verification_code" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:id="@+id/tv_reg_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reg_hint" />
+
+            <TextView
+                android:id="@+id/tv_reg_cluse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reg_cluse"
+                android:textColor="@color/blue_btn"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_red_main"
+        android:text="@string/register"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_authentication"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#ffffff" >
+
+        <ImageView
+            android:id="@+id/iv_auth_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/xq_img12" />
+
+        <TextView
+            android:id="@+id/et_license_auth_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/iv_auth_line"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:text="@string/driver_name"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+         <TextView
+            android:id="@+id/tv_license_auth_name_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/iv_auth_line"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#ffffff" >
+
+        <ImageView
+            android:id="@+id/iv_num_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/xq_img12" />
+
+        <TextView
+            android:id="@+id/et_license_auth_num"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/iv_num_line"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:text="@string/driver_license_no"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+         <TextView
+            android:id="@+id/tv_license_auth_num_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/iv_num_line"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_chose_image"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:text="@string/driver_license_photo"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_photo_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/xq_img12" />
+
+        <ImageView
+            android:id="@+id/iv_license_auth_photo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="2dp"
+             />
+        
+         <ImageView
+            android:id="@+id/iv_photo_line_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/xq_img12" />
+    </RelativeLayout>
+
+</LinearLayout>

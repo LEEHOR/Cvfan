@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9e9e9"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_auth_line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/auth_line2" />
+
+    <RelativeLayout
+        android:id="@+id/rl_nickname_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff" >
+
+        <ImageView
+            android:id="@+id/iv_top_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/xq_img12" />
+
+        <EditText
+            android:id="@+id/tv_nickname_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_top_line"
+            android:padding="15dp"
+            android:gravity="center_vertical"
+            android:hint="上海车神"
+            android:textColor="#8e8e8e"
+            android:textSize="16sp"
+            android:background="@null" />
+        <ImageView
+            android:id="@+id/iv_buttom_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/xq_img12"
+            android:layout_below="@+id/tv_nickname_edit" />
+
+    </RelativeLayout>
+
+</LinearLayout>

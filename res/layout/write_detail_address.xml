@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="600dp"
+    android:layout_height="300dp"
+    android:background="@color/content_color"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp" >
+
+    <RelativeLayout 
+        android:id="@+id/rl_title_bar_detail_add"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/btn_red_bg">
+        <TextView 
+            android:id="@+id/tv_detail_add_pop_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detail_address"
+            android:layout_centerInParent="true"
+            android:textColor="@color/translucence"/>
+        <ImageView 
+            android:id="@+id/iv_detail_add_pop_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delete_cancel"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"/>        
+    </RelativeLayout>
+    <EditText 
+        android:id="@+id/et_detail_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"/>
+    <Button 
+        android:id="@+id/btn_finish_detail_add"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/btn_red_bg"
+        android:text="@string/finish"/>
+</RelativeLayout>

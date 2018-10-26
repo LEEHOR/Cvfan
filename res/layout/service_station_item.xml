@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+         android:id="@+id/rv_station_icon"
+         android:gravity="center_horizontal|center_vertical"
+         android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+         >
+	    <ImageView
+	        android:id="@+id/iv_station_icon"
+	        android:layout_width="100dp"
+	        android:layout_height="80dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:src="@drawable/default_station_logo"
+	        android:layout_margin="5dp"
+	        />
+    </RelativeLayout>
+	<RelativeLayout 
+	     android:layout_width="match_parent"
+	     android:layout_height="match_parent"
+	     android:layout_toRightOf="@+id/rv_station_icon"
+	    >
+	    <TextView
+	        android:id="@+id/tv_station_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5dp"
+	        android:gravity="left"
+	        android:text="上海畅飞服务站"
+	        android:textColor="#055ac9"
+	        android:textSize="16sp" 
+	        android:singleLine="true"
+	        android:ellipsize="end"/>
+	
+		<RatingBar
+	        android:id="@+id/r_geller_point"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tv_station_name"
+	        android:layout_toRightOf="@+id/iv_station_icon"
+	       	android:layout_marginTop="3dp"
+	        style="@style/commentRatingBar_star"
+	        android:isIndicator="true"
+	         />
+	    <TextView
+	        android:id="@+id/iv_address"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/r_geller_point"
+	        android:layout_below="@+id/r_geller_point"
+	        android:textColor="@color/title_color"
+	        android:layout_toLeftOf="@+id/tv_distance"
+	        android:textSize="14sp"
+	        android:text="上海市关岗路121号" />
+	
+	    <ImageView
+	        android:id="@+id/iv_discount"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignTop="@+id/tv_station_name"
+	        android:layout_toRightOf="@+id/iv_sales_promotion"
+	        android:layout_marginLeft="5dp"
+	        android:src="@drawable/service_station_button3" />
+	
+	    <TextView
+	        android:id="@+id/textView5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@+id/r_geller_point"
+	        android:layout_alignParentRight="true"/>
+	
+	    <ImageView
+	        android:id="@+id/iv_sales_promotion"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	      	android:layout_alignTop="@+id/tv_station_name"
+	        android:layout_marginLeft="10dp"
+	        android:layout_toRightOf="@+id/tv_station_name"
+	        android:src="@drawable/service_station_button4" />
+		
+		
+	   
+	
+	   
+	
+	    <TextView
+	        android:id="@+id/tv_distance"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/iv_address"
+	        android:layout_alignBottom="@+id/iv_address"
+	        android:layout_toLeftOf="@+id/textView5"
+	        android:layout_marginRight="15dp"
+	        android:layout_marginLeft="5dp"
+	        android:text="15km"
+	        android:textColor="@color/title_color"
+	        android:textSize="14sp" />
+	
+	    <ImageView
+	        android:id="@+id/imageView3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5dp"
+	        android:layout_below="@+id/iv_address"
+	        android:src="@drawable/line2" />    
+	    
+	    <ImageView
+	        android:id="@+id/iv_maintenance_union"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentRight="true"
+	        android:src="@drawable/homepage_union_logo" />
+	
+	      <ImageView
+	          android:id="@+id/iv_check_flag"
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:layout_above="@+id/imageView3"
+	          android:layout_alignParentRight="true"
+	          android:src="@drawable/check_flag_s"
+	          android:visibility="gone"
+	           />
+	 </RelativeLayout>
+</RelativeLayout>

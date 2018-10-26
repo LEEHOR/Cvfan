@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_truck_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" 
+    android:gravity="center_vertical"
+    android:padding="15dp"
+    android:layout_marginLeft="1dp"
+    android:layout_marginRight="1dp"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/tv_maintain_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="维修日期：2013-12-12"
+        android:textColor="@color/text_color"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_maintain_station"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_maintain_date"
+        android:textColor="@color/text_color"
+        android:layout_toLeftOf="@+id/tv_pay_state"
+        android:textSize="16sp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_marginTop="5dp"
+        android:text="服务站：武汉XXX汽车服务公司啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊" />
+    <TextView
+        android:id="@+id/tv_pay_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_maintain_station"
+        android:layout_marginLeft="2dp"
+	    android:layout_alignParentRight="true"
+        android:textColor="@color/blue_btn"
+        android:textSize="16sp"
+        android:text="已付款" 
+        />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/xq_img7" />
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="160dp"
+    android:background="@color/content_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_phone_number"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/open_gps"
+        android:textColor="@color/black"
+        android:textSize="20sp" 
+        android:gravity="center_horizontal"/>
+
+    <View
+        android:id="@+id/v_line_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:layout_below="@+id/tv_phone_number"
+        android:layout_marginTop="30dp"
+        android:background="@color/content_color_dark" />
+
+    <LinearLayout
+        android:id="@+id/ll_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/v_line_horizontal">
+
+        <Button
+            android:id="@+id/btn_call_ok"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"            
+            android:layout_weight="1" 
+            android:background="@color/content_color"
+            android:text="@string/ok"
+            android:textColor="@color/blue_btn"
+            android:textSize="20sp"/>
+
+        <View
+            android:id="@+id/v_line_vertical"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/content_color_dark" />
+        <Button
+            android:id="@+id/btn_call_cancle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"            
+            android:layout_weight="1" 
+            android:background="@color/content_color"
+            android:text="@string/cancel"
+            android:textColor="@color/blue_btn"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

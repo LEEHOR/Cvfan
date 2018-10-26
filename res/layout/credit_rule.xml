@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9e9e9"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_credit_rule1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e9e9e9"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        android:text="会员积分由根据用户活跃及车辆维修兑换而来:"
+        android:textColor="#cd0000" />
+
+    <TextView
+        android:id="@+id/tv_credit_rule2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e9e9e9"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="14sp"
+        android:textColor="#cd0000"
+        android:text="1、用户每天登陆可获得5个积分" />
+    
+    <TextView
+        android:id="@+id/tv_credit_rule3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e9e9e9"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="18dp"
+        android:textSize="14sp"
+        android:textColor="#cd0000"
+        android:text="2、车辆每维修一元可获得1个积分" />
+
+</LinearLayout>
